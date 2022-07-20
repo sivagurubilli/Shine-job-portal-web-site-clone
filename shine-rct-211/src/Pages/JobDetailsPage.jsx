@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getJobDetails } from '../Redux/SinglePage/action'
 import { FaBriefcase, FaGripLines, FaShareSquare } from "react-icons/fa"
 import { GrLocation } from "react-icons/gr";
+import { JobDetailsCard } from '../Components/JobDetailsCard'
 
 export const JobDetailsPage = () => {
     
@@ -41,7 +42,7 @@ export const JobDetailsPage = () => {
         </HStack>
         <HStack>
             {/* icon */}
-            <FaBriefcase/>
+           <FaBriefcase/>
           <Text>{jobDetails.experience}</Text>
         </HStack>
         </HStack>
@@ -79,8 +80,9 @@ export const JobDetailsPage = () => {
 
           </HStack>
 
-        </HStack>
-      </Box>
+        </HStack> 
+      </Box> 
+      {/* <JobDetailsCard {...jobDetails} /> */}
       
       {/* nav bar */}
       <Flex justifyContent={"space-evenly"}>
@@ -130,7 +132,7 @@ export const JobDetailsPage = () => {
           <Link color="blue">{jobDetails.education}</Link>
         </Flex>
 
-        <Table variant="unstyled" lineHeight="shorter" width="50%" maxHeight="10px" border="1px solid red">
+        {/* <Table variant="unstyled" lineHeight="shorter" width="50%" maxHeight="10px" border="1px solid red">
           <Thead>
             <Tr><Td>Other Details :</Td><Th></Th></Tr>
           </Thead>
@@ -146,7 +148,7 @@ export const JobDetailsPage = () => {
             <Td color="blue">hi</Td>
             </Tr>
           </Tbody>
-        </Table>
+        </Table> */}
 
       </Box>
     </Box>
