@@ -1,0 +1,23 @@
+.input{
+    width:400px;
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+.dream{
+    margin-right: 900px;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.jobsearch{
+    background-color: #8652ff;
+    color: white;
+    margin-right: 630px;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
