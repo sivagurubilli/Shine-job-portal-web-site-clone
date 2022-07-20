@@ -16,6 +16,7 @@ const Routesall =()=>{
 
 </Route>
 <Route path="/register" element={<Register/>}></Route>
+<Route path="/jobDetails/:id" element={<JobDetailsPage />} />
     </Routes>
 </div>
 
