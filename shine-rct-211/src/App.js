@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { MainRoute } from './Components/MainRoute';
 
 function App() {
   return (
     <div className="App">
-    siva
+       <MainRoute/>
     </div>
   );
 }

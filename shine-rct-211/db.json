@@ -1,0 +1,44 @@
+{
+    "job":[
+       {
+        "id":1,
+        "title":"CIB_Asset Analyst_Team Leader",
+        "company_name":"JPMorgan",
+        "location":"Mumbai City",
+        "experirnce":"2 to 7 Yrs",
+        "job_type":"Regular",
+        "job_details":["J.P. Morgan is a leader in financial services, working in collaboration across the globe to deliver the best solutions and advice to meet our clients needs, anywhere in the world. We operate in 150 countries, and hold leadership positions across our businesses. We have an exceptional team of employees who work hard to do the right thing for our clients and the firm, every day. This is why we are the most respected financial institution in the world and why we can offer you an outstanding career."," J.P. Morgan Investor Services combines Financing & Custody, Custody & Fund Services, and Clearing, Collateral Management and Execution under a common umbrella. These businesses occupy top-tier competitive positions; the combination provides an expanded, integrated and best-in-class suite of end-to end capabilities. Investor Services employs more than 14,000 people around the world and generates more than $6 Billion in annual revenue.","J.P. Morgan s Corporate & Investment Bank (CIB) is a global leader across banking, markets and investor services. The world s most important corporations, governments and institutions entrust us with their business in more than 100 countries. With $20 trillion of assets under custody and $393 billion in deposits, the Corporate & Investment Bank provides strategic advice, raises capital, manages risk and extends liquidity in markets around the world. "],
+         "qualifications":
+         ["Bachelor degree","2+ years of experience on Global Custody (preferable) / Asset Services","Understanding of Equity and Fixed Income instruments","Technical understanding of corporate actions","Logical/problem solving mind set is key for identifying and remediating the risk associated with corporate actions","Ability to be self-motivated and work well under pressure. Also conducive to a team environment.","Strong communication skills, both written and verbal, including the ability to develop relationships across the various stakeholders including senior business executives", "Motivated and able to deliver with minimal supervision, whilst working effectively in a team","Proficient with MS Excel, Word and Powerpoint"],
+         "roles_responsibilities":["The Team is responsible for managing Asset Servicing risk associated with global corporate actions. The focus of the team is on operational risk management and delivering positive client experience. The team will interact with Operations, Client Facing Middle Office, Client Service, Product, Legal and Compliance in the execution of their responsibilities. The candidate will ideally have experience in supporting Asset Services and combine that experience with analytical thinking and strong communication skills and a broad working knowledge of Global Custody.","Identify and manage risk on voluntary corporate action events.","Provide instruction management support to clients and operational support teams","Support global middle office client facing teams with inquiry management for Voluntary Corp Actions.","Partner with core Operations and Middle office teams to address control and service delivery issues","Understanding the control environment and ensuring daily checks are completed","Participate in team huddles","Work with team on departmental projects "
+        ],
+         "department":" Finance / Accounts / Tax",
+         "industry":" Banking / Financial Services",
+         "education":"Graduation",
+         "skills":["asset management","inventory management","fixed income","procurement","computer hardware","billing","operatinal risk management","strong communication skills","middle office","global custody","fund services"],
+         "recruiter_email":"",
+         "recruiter_mobile":"",
+         "company_details":"J.P. Morgan Chase & Co. is an American multinational investment bank and financial services company headquartered in New York City. JPMorgan Chase is the largest bank in the United States, and is ranked by S&P Global as the sixth largest bank in the world by total assets as of 2018, to the amount of $2.534 trillion."
+
+       },
+       {
+        "id":2,
+        "title":"Recruitment of - New Associate-Investment Banking",
+        "company_name":"Accenture",
+        "location":"Mumbai City",
+        "experirnce":"0 to 1 Yr",
+        "job_details":["You will be aligned to our Financial Services, Banking, Insurance, and Capital Market vertical which is focused on helping clients with their operations & investment portfolios.", "You will be working as a part of Investment Banking team which specializes primarily in selling securities and underwriting the issuance of new equity shares to raise capital funds. They act as intermediaries between security issuers and investors and help new firms to go public.","The Accenture Post Trade Processing (APTP) team focuses on the life cycle of trade settlements from the middle office to back office. The team is responsible for the processing of trade settlements and deals with products like equity, fixed income and derivatives. The role may require for you to have expertise around trade validation, pre-matching, trade execution and post-trade settlements."],
+         "qualifications":["Customer Service Management","Settlements"," Banking Due Diligence","Adaptable and flexible","Agility for quick learning"," Ability to work well in a team","Ability to meet deadlines"
+         ],
+         "roles_responsibilities":["In this role, you are required to solve routine problems, largely through precedent and referral to general guidelines","Your primary interaction is within your team and your direct supervisor","You will be given detailed instructions on all tasks that need to be carried out, and the decisions that you make will impact your work","You will need to be well versed with basic statistics and terms involved in the day to day business and use it while discussing with stakeholders","You will be working closely with project members to effectively deliver on the requirements","You will be an individual contributor as a part of a team with a predetermined focused scope of work.","Please note this role may require you to work in rotational shifts."],
+         "department":" Finance / Accounts / Tax",
+         "industry":"IT - Software",
+         "education":"Graduation",
+         "skills":["accounts payable","receivable","approval process","budgetig","credit","life cycle",
+        "fixed income","middle office","helping clients","captial market"],
+         "company_details":"Accenture is a global management consulting and professional services firm that provides strategy, consulting, digital, technology and operations services. A Fortune Global 500 company, it has been incorporated in Dublin, Ireland, since 1 September 2009."
+
+       }
+
+    ]
+}
