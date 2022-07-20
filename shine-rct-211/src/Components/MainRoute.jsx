@@ -5,7 +5,7 @@ import { JobDetailsPage } from '../Pages/JobDetailsPage';
 export const MainRoute = () => {
   return (
       <Routes>
-          <Route path="/" element={<JobDetailsPage/>}/>
+          <Route path="/" element={<JobDetailsPage />} />
     </Routes>
   )
 }

@@ -3,9 +3,10 @@
        {
         "id":1,
         "title":"CIB_Asset Analyst_Team Leader",
+        "publish_date":"18-07-2022",
         "company_name":"JPMorgan",
         "location":"Mumbai City",
-        "experirnce":"2 to 7 Yrs",
+        "experience":"2 to 7 Yrs",
         "job_type":"Regular",
         "job_details":["J.P. Morgan is a leader in financial services, working in collaboration across the globe to deliver the best solutions and advice to meet our clients needs, anywhere in the world. We operate in 150 countries, and hold leadership positions across our businesses. We have an exceptional team of employees who work hard to do the right thing for our clients and the firm, every day. This is why we are the most respected financial institution in the world and why we can offer you an outstanding career."," J.P. Morgan Investor Services combines Financing & Custody, Custody & Fund Services, and Clearing, Collateral Management and Execution under a common umbrella. These businesses occupy top-tier competitive positions; the combination provides an expanded, integrated and best-in-class suite of end-to end capabilities. Investor Services employs more than 14,000 people around the world and generates more than $6 Billion in annual revenue.","J.P. Morgan s Corporate & Investment Bank (CIB) is a global leader across banking, markets and investor services. The world s most important corporations, governments and institutions entrust us with their business in more than 100 countries. With $20 trillion of assets under custody and $393 billion in deposits, the Corporate & Investment Bank provides strategic advice, raises capital, manages risk and extends liquidity in markets around the world. "],
          "qualifications":
@@ -25,8 +26,9 @@
         "id":2,
         "title":"Recruitment of - New Associate-Investment Banking",
         "company_name":"Accenture",
+        "publish_date":"19-07-2020",
         "location":"Mumbai City",
-        "experirnce":"0 to 1 Yr",
+        "experience":"0 to 1 Yr",
         "job_details":["You will be aligned to our Financial Services, Banking, Insurance, and Capital Market vertical which is focused on helping clients with their operations & investment portfolios.", "You will be working as a part of Investment Banking team which specializes primarily in selling securities and underwriting the issuance of new equity shares to raise capital funds. They act as intermediaries between security issuers and investors and help new firms to go public.","The Accenture Post Trade Processing (APTP) team focuses on the life cycle of trade settlements from the middle office to back office. The team is responsible for the processing of trade settlements and deals with products like equity, fixed income and derivatives. The role may require for you to have expertise around trade validation, pre-matching, trade execution and post-trade settlements."],
          "qualifications":["Customer Service Management","Settlements"," Banking Due Diligence","Adaptable and flexible","Agility for quick learning"," Ability to work well in a team","Ability to meet deadlines"
          ],
