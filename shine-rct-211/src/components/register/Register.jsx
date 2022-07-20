@@ -41,10 +41,7 @@ const [year,setyear] =useState("")
 const [course,setcourse] = useState("")
 
 
-const [title,settitle] = useState("")
-const[company,setcompany] = useState("")
-const [industry,setindustry] = useState("")
-const [functionalarea,setfunctionalarea] = useState("")
+
 
 const [skills,setskills] = useState([])
 const[oneskill,setoneskill] = useState();
@@ -271,61 +268,21 @@ prefer not to disclose</button>
 
 </div>
   ):page4?(
- <div>
-    {/* this is four page */}
-
-<div className={styles.cont}>
-<div className={styles.container}>
-    {isworked?(
-        <div>
- <div className={styles.container2} >
-    <h4 tyle ={{fontSize:"22px", fontweight:"800",marginRight:"0",marginTop:"3px",color:"rgb(75,75,75)",margin:"auto",textAlign:"center"}}>in which company you have worked? </h4>
-
- </div>
-
- <div className={styles.container2} style={{marginTop:"30px"}}>
-    <input
-    style={{marginRight:"",height:"40px",marginRight:"60px",cursor:"pointer"}}
-   type="text"
-   placeholder='enter company name'
-   value={company}
-   onChange={(e)=>setcompany(e.target.value)}
+<div>
 
 
-
-
-/>
-
-<button style={{height:"42px",width:"42px",marginRight:"60px",cursor:"pointer"}}
-onClick={()=>setistitle(true)}
->→</button>
-
+<div >
 
 
 </div>
 
-{istitle?(
-<div className={styles.container} style={{marginTop:"30px",transition:"300ms"}}>
-    <p style={{marginRight:"350px"}}>what was your job title?</p>
-    <input style={{marginRight:"",height:"40px",width:"500px",borderRadius:"5px",border:"1px solid grey"}}
-    type="text"
-    placeholder='enter title'
-    value={title}
-    onChange={()=>settitle(e.target.value)}
 
-/>
-<button style={{heigth:"42px",width:"42px"}}>→</button>
-</div>
-):("")}
- </div>
-        
-    ):("")}
-</div>
 
 </div>
-
- </div>
   ):("")
+  
+  
+
 }
 
 export default Register
