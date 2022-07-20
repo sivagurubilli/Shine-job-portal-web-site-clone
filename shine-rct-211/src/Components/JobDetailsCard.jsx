@@ -1,17 +1,28 @@
-import { Box, Button, HStack, Icon, Text,ListItem, Stack } from '@chakra-ui/react'
+import { Box, Button, HStack, Icon, Text,ListItem, Stack, UnorderedList } from '@chakra-ui/react'
 import React from 'react'
+import { useEffect } from 'react'
 import { FaBriefcase, FaShareSquare } from 'react-icons/fa'
 import { GrLocation } from 'react-icons/gr'
 
 export const JobDetailsCard = ({jobDetails}) => {
-    console.log(jobDetails);
-  return (
+  // const date = ((jobDetails?.publish_date).split("-"))[0];
+  // const today = new Date().getDate();
+  // const diff=today-date;
+  // console.log(date, today, diff);
+  // var dayStr;
+  // useEffect(() => {
+  //   if (diff === 0 || diff === 1) dayStr = `${diff} day`
+  //   else if(diff>1 && diff <8) dayStr=`${diff} days`
+  // },[])
+  
+
+  return ( 
     <Box  margin={"2% 0"} padding={"2%"} textAlign={"start"} bgColor="#f3fbfd" lineHeight={2.5} boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
         <HStack justifyContent={"space-between"}>
           <Text as={"p"}>Hot</Text>
           <Text as={"p"}>
             {/* {((date - publishDate) < 0) ? 0 : (date - publishDate)} */}
-            0 days ago
+            {jobDetails.id} days ago
           </Text>
         </HStack>
       <Text as={"h3"} fontWeight={700} fontSize={"26px"}>{jobDetails.title}</Text>
@@ -27,15 +38,7 @@ export const JobDetailsCard = ({jobDetails}) => {
           <Text>{jobDetails.experience}</Text>
         </HStack>
         </HStack>
-        <HStack>
-          {/* <Icon viewBox='0 0 300 270' color='gray.300'>
-           <path
-            fill='currentColor'
-            d='M 100, 100 m -75, 0 a 75,75 0 1,0 150,0 a 75,75 0 1,0 -150,0'
-          />
-          </Icon> */}
-          <ListItem>{jobDetails.job_type}</ListItem>
-        </HStack>
+          <UnorderedList><ListItem>{jobDetails.job_type}</ListItem></UnorderedList>
 
         <HStack justifyContent={["space-evenly", "space-between"]}>
           
@@ -59,8 +62,7 @@ export const JobDetailsCard = ({jobDetails}) => {
               </Stack>
             </Box>
 
-          </HStack>
-
+        </HStack>
         </HStack>
       </Box>
   )
