@@ -1,0 +1,241 @@
+
+
+
+.topreg{
+    height: 60px;
+    text-align: left;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+}
+.imgshine{
+    height: 70px;
+
+}
+.topreg > div{
+    
+        height: 30px;
+        width: 80px;
+        margin-left: 62%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-left: 35px;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    
+}
+
+.login{
+   background-image: linear-gradient(135deg,rgb(162,150,217)0%,rgb(127,174,22)100%);
+   box-shadow: 0 4px 0 rgb(0 0 0 / 21%);
+   padding-top: 10px;
+   text-align: center;
+   height: 35px;
+   width: 100px;
+   color: white;
+
+}
+
+ .mid{
+    border: rgb(215,215,215) solid 1px;
+    height: 650px;
+    display: flex;
+    margin: auto;
+  
+    flex-direction: row;
+    background-color: #fbfbfb;
+    justify-content: flex-start;
+    
+ }
+
+.contimg{
+    padding-left: 50px;
+    margin-top: 100px;
+
+}
+.contimg button{
+  height:50px;
+  width: 120px;
+  border:0px ;
+  border-radius: 14%;
+  background-color: #8AA3D8;
+}
+ .cont{
+    margin: auto;
+    display: flex;
+    width: 900px;
+    height: 700px;
+    
+
+ }
+
+ .cont1{
+    border:black solid 0px;
+   height: 450px;
+   width: 500px;
+   margin: auto;
+   padding-left: 30px;
+   text-align: left;
+   box-shadow: 0px 0px 2px 2px rgb(252,248,248);
+margin-top: 10px;
+
+
+}
+
+.cont1 > input{
+    width:350px;
+    border: rgb(143,141,141) solid 1px;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.social img{
+    width: 60px;
+
+}
+
+.social{
+  
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 20px;
+}
+.social div{
+    height: 40px;
+    width:100px;
+  
+    text-align: center;
+    
+}
+.continuebut{
+    width:150px;
+    background-color:#8AA3D8;
+    box-shadow: 0 4px 0 rgb(0 0 0 / 21%);
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 0;
+    padding-top: 10px;
+    text-align: center;
+    height: 35px;
+    width: 360px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    text-align: left;
+    color: #6d7883;
+    height: 1px;
+    border: 1px solid grey
+}
+
+
+.footer > ul> li{
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px;
+    padding-right: 5px;
+    margin: 0;
+  font-weight:400 ;
+  border-right: #6d7883 solid 1px;
+
+
+
+}
+
+.container{
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    width: 900px;
+    height: 550px;
+    border: black solid 0px;
+    box-shadow: rgb(169,169,169)0px 0px 10px 5px;
+    transition: ease-in-out;
+    transition :200ms;
+}
+
+
+.container1{
+    border: black solid 0px;
+    width:650px;
+     height:150px;
+ margin: auto;
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ transition: ease-in-out 300ms;
+
+
+}
+
+.container2{
+    border: black solid 0px;
+    width: 650px;
+    height: 60px;
+    margin: auto;
+    text-align: right;
+    justify-content: right;
+    transition: ease-in-out 300ms;
+}
+
+
+.containerconti{
+  
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 21%);
+    border-radius: 5px;
+    margin-left: 75%;
+    font-weight: 600;
+    color: white;
+    width: 120px;
+    height: 38px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color:#8AA3D8
+}
+
+.identity{
+    border-radius: 10px;
+    border: black solid 0px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-color: rgb(244,245,245);
+    box-shadow: rgb(233,233,233) 0px 0px 5px 5px;
+    cursor: pointer;
+}
+
+.identity1{
+    width: 40px;
+    height: 60px;
+    background: url("https://static1.shine.com/c/s1/bundles/registration_sprite-1cf96c8.png");
+    background-position: -85px -62px;
+}
+.identity2
+{
+   width: 40px;
+   height: 54px;
+   background: url("https://static1.shine.com/c/s1/bundles/registration_sprite-1cf96c8.png");
+   background-position: -86px -11px;
+}
+
+.identity3
+{
+   width: 50px;
+   height: 54px;
+   background: url("https://static1.shine.com/c/s1/bundles/registration_sprite-1cf96c8.png");
+   background-position: -11px -129px;
+}
+.identity4
+{
+   width: 40px;
+   height: 54px;
+   background: url("https://static1.shine.com/c/s1/bundles/registration_sprite-1cf96c8.png");
+   background-position: -88px -117px;
+}
