@@ -81,6 +81,7 @@ const addskilss =()=>{
 
 const sendpayload=()=>{
   const payload = {name,email,mobile,pass,gender,location,degree,
+
 college,year,course}
 
  dispatch(register(payload)).then((r)=>{
@@ -97,7 +98,12 @@ college,year,course}
 navigate("/register")
  })
 
-}
+    college, year, course
+   
+  }
+
+
+
 
 
 
@@ -543,5 +549,4 @@ onClick={()=>addskilss()}
   
 
 }
-
 export default Register

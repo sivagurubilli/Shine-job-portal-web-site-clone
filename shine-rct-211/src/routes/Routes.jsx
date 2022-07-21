@@ -1,7 +1,9 @@
 import {Routes,Route} from "react-router-dom"
+
 import Login from "../components/login/Login"
 import Register from "../components/register/Register"
 import {JobDetailsPage} from "../Pages/JobDetailsPage"
+
 
 
 const Routesall =()=>{
