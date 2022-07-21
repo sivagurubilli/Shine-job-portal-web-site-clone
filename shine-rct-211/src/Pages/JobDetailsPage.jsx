@@ -1,9 +1,9 @@
 import React from 'react';
-import { Box, Button, Flex, ListItem, Text, List, Link } from "@chakra-ui/react";
+import { Box, Button, Flex, ListItem, Text, List, Link,Grid,GridItem } from "@chakra-ui/react";
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getJobDetails } from '../Redux/SinglePage/action';
-import { JobDetailsCard } from '../Components/JobDetailsCard';
+import { JobDetailsCard } from '../Components/JobDetails/JobDetailsCard';
 
 export const JobDetailsPage = () => {
     
@@ -86,6 +86,54 @@ export const JobDetailsPage = () => {
           </Tbody>
         </Table> */}
 
+      </Box>
+
+      {/* key skills div */}
+      <Box boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        textAlign="start"
+        margin="2% auto" padding="2%" >
+        <Text as="h3" fontSize={"20px"} fontWeight={700}>Key Skills</Text>
+        <Grid>
+        {jobDetails?.skills.map((item,index)=>(
+          <GridItem key={item}><Button variant={"outline"}>{item}</Button></GridItem>
+        ))}
+        </Grid>
+      </Box>
+
+      {/* recruiter details div */}
+      <Box boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        textAlign="start"
+        margin="2% auto" padding="2%" >
+      <Text as="h3" fontSize={"20px"} fontWeight={700}>Recruiter Details</Text>
+      <Text as="h5" fontSize={"16px"} fontWeight={500}>{jobDetails.title}</Text> 
+      <Text>{jobDetails.location} </Text>
+      <br></br>
+
+      <Text>hidden_email</Text> 
+      <Text>hidden_mobile</Text>   
+      <Flex justifyContent={"space-between"}>
+        <Link>View Contact</Link>
+        <Link>Show all Jobs by this Recruiter</Link>
+      </HStack>
+     </Box>
+
+     {/* notice div */}
+     <Box boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        textAlign="start"
+        margin="2% auto" padding="2%" >
+          <Flex>
+            {/* pagesearch icon */}
+            <Link>Get your Application Noticed</Link>
+            {/* arrow icon */}
+          </Flex>
+      </Box>
+
+      {/* simliar jobs search */}
+      <Box boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        textAlign="start"
+        margin="2% auto" padding="2%" >
+      <Text as="h3" fontSize={"20px"} fontWeight={700}>Similar Jobs</Text>
+      
       </Box>
     </Box>
   )

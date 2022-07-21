@@ -1,8 +1,8 @@
 import {Routes,Route} from "react-router-dom"
-import Home from "../components/Home"
-import Login from "../components/login/Login"
-import Register from "../components/register/Register"
-
+import {Home} from "../Components/Home"
+import { JobDetailsPage } from "../Pages/JobDetailsPage"
+import Login from "../Components/login/Login"
+import Register from "../Components/register/Register"
 
 
 const Routesall =()=>{
@@ -12,7 +12,7 @@ const Routesall =()=>{
         <Route path="/" element={<Home /> }>
 
         </Route>
-<Route path ="/login" element={<Login />}>
+<Route path ="/login" element={<Login/>}>
 
 </Route>
 <Route path="/register" element={<Register/>}></Route>
