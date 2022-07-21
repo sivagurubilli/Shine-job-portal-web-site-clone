@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "title": "My Job Thought Report",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2F1762%2F1509623306_9589.png&w=64&q=75",
+      "author": "TMTR",
+      "rating": "4.5",
+      "price": 3599,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    },
+    {
+      "title": "Job Search Guidance With Job",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2F1763%2F1509606404_7754.png&w=64&q=75",
+      "author": "TMTR",
+      "rating": "4.35",
+      "price": 5899,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    },
+    {
+      "title": "Job and Interview Assistance",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1507539200_2178.png&w=640&q=75",
+      "author": "TMTR",
+      "rating": "5",
+      "price": 15000,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    },
+    {
+      "title": "My Job Thought Report",
+      "avatar": "null",
+      "author": "TMTR",
+      "rating": "4.5",
+      "price": 2000,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    },
+    {
+      "title": "My Job Thought Report",
+      "avatar": "null",
+      "author": "TMTR",
+      "rating": "4.5",
+      "price": 2000,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    }
+  ]
+}

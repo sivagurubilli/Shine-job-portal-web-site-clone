@@ -1,0 +1,27 @@
+/* div>img{
+    height:70px;
+    width:70px;
+} */
+
+/* img{
+    background-color: rgba(123, 178, 228, 0.815);
+} */
+
+#dream{
+    display:flex;
+    width:35%;
+    gap:30px;
+    margin:auto;
+}
+
+#dream >button{
+    border-radius: 40px;
+    width:300px;
+    height:30px;
+}
+
+.para{
+    width:200px;
+    height:30px;
+    border:3px solid black;
+}

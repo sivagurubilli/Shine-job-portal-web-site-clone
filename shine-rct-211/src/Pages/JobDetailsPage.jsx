@@ -3,7 +3,7 @@ import { Box, Button, Flex, ListItem, Text, List, Link } from "@chakra-ui/react"
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getJobDetails } from '../Redux/SinglePage/action';
-import { JobDetailsCard } from '../Components/JobDetailsCard';
+import { JobDetailsCard } from "../components/JobDetailsCard"
 
 export const JobDetailsPage = () => {
     
@@ -91,10 +91,11 @@ export const JobDetailsPage = () => {
   )
 }
 
-const style = {
+{/*const style = {
   width: "25px",
   height: "6px",
   border: "2px solid gray",
   borderRadius: "10px",
   marginRight:"5px"
 }
+*/}
