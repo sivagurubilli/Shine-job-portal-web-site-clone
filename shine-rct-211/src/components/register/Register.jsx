@@ -84,7 +84,9 @@ const addskilss =()=>{
 
 const sendpayload=()=>{
   const payload = {name,email,mobile,pass,gender,location,degree,
-college,year,course,skills,title,company,industry,functionalarea}
+    college, year, course, skills
+    // , title, company, industry, functionalarea
+  }
 
  //dispatch(registering(payload))
  setisregi(true)

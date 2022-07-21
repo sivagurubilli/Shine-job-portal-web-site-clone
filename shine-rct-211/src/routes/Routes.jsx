@@ -1,7 +1,8 @@
 import {Routes,Route} from "react-router-dom"
-import Home from "../components/Home"
-import Login from "../components/login/Login"
-import Register from "../components/register/Register"
+import Home from "../Components/Home"
+import Login from "../Components/login/Login"
+import Register from "../Components/register/Register"
+import { JobDetailsPage } from "../Pages/JobDetailsPage"
 
 
 
@@ -16,7 +17,7 @@ const Routesall =()=>{
 
 </Route>
 <Route path="/register" element={<Register/>}></Route>
-<Route path="/jobDetails/:id" element={<JobDetailsPage />} />
+<Route path="/jobDetails/:id" element={<JobDetailsPage/>} />
     </Routes>
 </div>
 

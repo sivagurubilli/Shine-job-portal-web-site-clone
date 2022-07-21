@@ -10,7 +10,7 @@ export const JobDetailsPage = () => {
     const dispatch = useDispatch();
     const jobDetails = useSelector(state => state.jobReducer.jobDetails);
     useEffect(() => {
-        dispatch(getJobDetails(2));
+        dispatch(getJobDetails("62d93d3a9eabc9206b7a5d0a"));
     }, [dispatch]);
   
   

@@ -13,7 +13,7 @@ const getJobDetFail = () => (
 
 const getJobDetails = (id) => dispatch=>{
     dispatch(getJobDetReq());
-    axios.get(`http://localhost:8080/job/${id}`)
+    axios.get(`https://shine-jobs.herokuapp.com/jobDetails/${id}`)
         .then((res) => dispatch(getJobDetSucc(res.data)))
     .catch((e)=>dispatch(getJobDetFail()))
 }
