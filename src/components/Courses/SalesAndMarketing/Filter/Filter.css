@@ -1,0 +1,61 @@
+/* Filter Component CSS */
+
+#filter-main-container {
+  margin: auto;
+  width: 1140px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+.filter,
+.filter-header {
+  width: 50%;
+}
+
+.filter-header {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  color: #232434;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.filter-by {
+  font-size: 12px;
+  color: #505e6b;
+  margin: 0 5px 0 0;
+}
+
+.filter-by-btn {
+  text-decoration: none;
+  color: #38404c;
+  font-size: 14px;
+}
+
+.filter > ul {
+  display: flex;
+  padding: 0;
+}
+
+.filter > ul > li {
+  list-style-type: none;
+}
+
+.filter > ul > li > a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 34px;
+  border: 1px solid #dadee0;
+  padding: 0 10px 0 10px;
+  margin: 0 0 0 10px;
+  border-radius: 5px;
+}
