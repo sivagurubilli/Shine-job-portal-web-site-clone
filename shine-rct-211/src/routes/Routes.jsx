@@ -1,6 +1,6 @@
 import {Routes,Route} from "react-router-dom"
-import Login from "../components/login/Login"
-import Register from "../components/register/Register"
+import Login from "../Components/login/Login"
+import Register from "../Components/register/Register"
 import {JobDetailsPage} from "../Pages/JobDetailsPage"
 
 
