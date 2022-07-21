@@ -1,7 +1,9 @@
 import React from 'react'
+import axios from "axios"
 import { useState } from 'react'
-//import {useDispatch} from "react-redux"
+import {useDispatch} from "react-redux"
 import Regifooter from "./Regifooter"
+import {register} from "../../Redux/register/action"
 
 import {Navigate, useNavigate,} from "react-router-dom"
 import styles from "../register/Register.module.css"
@@ -10,7 +12,7 @@ import { Button } from '@chakra-ui/react'
 const Register = () => {
 
 const navigate = useNavigate()
-   // const dispatch=useDispatch();
+    const dispatch=useDispatch();
 const [page1,setpage1] = useState(true)
 const [page2,setpage2] = useState(true)
 const [page3,setpage3] = useState(true)
@@ -79,15 +81,25 @@ const addskilss =()=>{
 
 const sendpayload=()=>{
   const payload = {name,email,mobile,pass,gender,location,degree,
-college,year,course,skills}
+college,year,course}
 
- //dispatch(registering(payload))
- setisregi(true)
+ dispatch(register(payload)).then((r)=>{
+  
+  alert(r.response.data)
+  if(r.response.status===200){
+    navigate("/login")
+  }else{
+    navigate("/register")
+  }
+  
+ }).catch((e)=>{
+ alert(e.response)
+navigate("/register")
+ })
+
 }
 
-if(isregi){
-   navigate("/login")
-}
+
 
 
   return  page1?(

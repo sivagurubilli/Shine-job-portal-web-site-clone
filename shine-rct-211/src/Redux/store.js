@@ -1,9 +1,9 @@
 import { applyMiddleware, combineReducers, compose, legacy_createStore } from "redux";
 import thunk from "redux-thunk";
 import { jobDetailsReducer } from "../Redux/SinglePage/reducer";
-
+import {reducer as regReducer} from "./register/reducer"
 const rootReducer = combineReducers({
-    jobReducer:jobDetailsReducer
+    jobReducer:jobDetailsReducer,regReducer
 })
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
