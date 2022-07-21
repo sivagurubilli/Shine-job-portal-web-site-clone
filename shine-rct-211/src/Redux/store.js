@@ -1,6 +1,6 @@
 import { applyMiddleware, combineReducers, compose, legacy_createStore } from "redux";
 import thunk from "redux-thunk";
-import { jobDetailsReducer } from "./reducer";
+import { jobDetailsReducer } from "../Redux/SinglePage/reducer";
 
 const rootReducer = combineReducers({
     jobReducer:jobDetailsReducer

@@ -55,8 +55,8 @@ export const JobDetailsCard = ({jobDetails}) => {
             <Box bgColor={"white"} width={["120px",'150px']} padding="5% 0% 0% 2%">
             <Stack direction={["column","row"]} alignItems="center" gap={["0px","2%"]}>
                 <Stack>
-                  <Box style={style}></Box>
-                  <Box style={style}></Box>
+                  <Box style={style11}></Box>
+                  <Box style={style11}></Box>
                 </Stack>
                 <Text>Similar Jobs</Text>
               </Stack>
@@ -68,7 +68,7 @@ export const JobDetailsCard = ({jobDetails}) => {
   )
 }
 
-const style = {
+const style11 = {
     width: "25px",
     height: "6px",
     border: "2px solid gray",
