@@ -98,7 +98,7 @@ college,year,course}
 navigate("/register")
  })
 
-    college, year, course
+    // college, year, course
    
   }
 

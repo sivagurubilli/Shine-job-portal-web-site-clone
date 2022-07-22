@@ -3,7 +3,7 @@ import { Box, Button, Flex, ListItem, Text, List, Link } from "@chakra-ui/react"
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getJobDetails } from '../Redux/SinglePage/action';
-import { JobDetailsCard } from "../components/JobDetailsCard"
+import {JobDetailsCard} from "../Components/JobDetails/JobDetailsCard"
 
 export const JobDetailsPage = () => {
     
@@ -63,10 +63,11 @@ export const JobDetailsPage = () => {
           <Text>Industry</Text>
           <Link color="blue">{jobDetails.industry}</Link>
         </Flex>
-        <Flex gap={["13.5%","11%"]}>
+        {jobDetails.education ? <Flex gap={["13.5%", "11%"]}>
           <Text>Education </Text>
           <Link color="blue">{jobDetails.education}</Link>
         </Flex>
+          : ""}
 
         {/* <Table variant="unstyled" lineHeight="shorter" width="50%" maxHeight="10px" border="1px solid red">
           <Thead>

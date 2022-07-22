@@ -1,12 +1,12 @@
 import React from "react";
 // import data from "../data";
 import {walkin} from "../../data";
-import styles from "../../styles/beEarly.module.css";
+// import styles from "../../styles/beEarly.module.css";
 
 const WalkIn = () => {
     return (
         <div >
-          <h1 style={{fontSize:"45px"}}>Walkin Jobs</h1>
+          {/* <h1 style={{fontSize:"45px"}}>Walkin Jobs</h1>
           <div className={styles.chiki}>
           {walkin.length > 0 &&
             walkin.map((item) => {
@@ -37,7 +37,7 @@ const WalkIn = () => {
                 </>
               );
             })}
-        </div>
+        </div> */}
         
          </div>
       );
