@@ -1,7 +1,11 @@
 import {Routes,Route} from "react-router-dom"
+
+
 import Login from "../Components/login/Login"
 import Register from "../Components/register/Register"
+
 import {JobDetailsPage} from "../Pages/JobDetailsPage"
+
 
 
 const Routesall =()=>{
