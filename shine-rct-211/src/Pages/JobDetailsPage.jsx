@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getJobDetails } from '../Redux/SinglePage/action';
 import { JobDetailsCard } from "../Components/JobDetails/JobDetailsCard";
 import {MyCarousel } from '../Components/JobDetails/Carousel';
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom'
 
 export const JobDetailsPage = () => {
   const { id } = useParams();

@@ -25,7 +25,7 @@ router.post("/",async(req,res)=>{
                 res.status(200).send("register succesfullly")
 
     }catch(err){
-        alert(err)
+       
         res.status(500).send("internal error")
     
     }

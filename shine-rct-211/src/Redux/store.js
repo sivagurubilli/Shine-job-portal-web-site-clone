@@ -2,6 +2,7 @@ import { applyMiddleware, combineReducers, compose, legacy_createStore } from "r
 import thunk from "redux-thunk";
 import { jobDetailsReducer } from "../Redux/SinglePage/reducer";
 import {reducer as regReducer} from "./register/reducer"
+
 const rootReducer = combineReducers({
     jobReducer:jobDetailsReducer,regReducer
 })
