@@ -73,7 +73,7 @@ const addskilss =()=>{
   }
   
 
-  const [gologin,setgologin] = useState(false)
+
 
   const logintab=()=>{
   setgologin((pre)=>!pre)
