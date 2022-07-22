@@ -24,7 +24,8 @@ export const JobDetailsCard = ({jobDetails}) => {
           <Text as={"p"}>Hot</Text>
           <Text as={"p"}>
             {/* {((date - publishDate) < 0) ? 0 : (date - publishDate)} */}
-            {jobDetails.id} days ago
+          {/* {jobDetails.id} */}
+          x days ago
           </Text>
         </HStack>
       <Text as={"h3"} fontWeight={700} fontSize={"26px"}>{jobDetails.title}</Text>

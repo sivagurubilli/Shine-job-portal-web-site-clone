@@ -10,7 +10,7 @@
 // export default Slide
 
 import React, { Component } from "react";
-// import Slider from "react-slick";
+import Slider from "react-slick";
 import yellow from "../../images/yellow.png";
 import winter from "../../images/winter.png";
 import mint from "../../images/mint.png";
@@ -31,7 +31,7 @@ export default class PauseOnHover extends Component {
     };
     return (
       <div>
-        {/* <Slider {...settings}>
+        <Slider {...settings}>
           <div className="slider">
             <img src={yellow}/>
           </div>
@@ -45,7 +45,7 @@ export default class PauseOnHover extends Component {
           <img src={Infosys}/>
           </div>
           
-        </Slider> */}
+        </Slider>
       </div>
     );
   }
