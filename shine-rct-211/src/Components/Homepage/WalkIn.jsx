@@ -1,5 +1,5 @@
 import React from "react";
-// import data from "../data";
+import data from "../data";
 import {walkin} from "../../data";
 import styles from "../../styles/beEarly.module.css";
 
