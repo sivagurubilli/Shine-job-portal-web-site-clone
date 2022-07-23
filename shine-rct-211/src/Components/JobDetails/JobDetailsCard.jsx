@@ -4,28 +4,22 @@ import { useEffect } from 'react'
 import { FaBriefcase, FaShareSquare } from 'react-icons/fa'
 import { GrLocation } from 'react-icons/gr'
 
-export const JobDetailsCard = ({jobDetails}) => {
-  // const date = ((jobDetails?.publish_date).split("-"))[0];
-  // const today = new Date().getDate();
-  // const diff=today-date;
-  // console.log(date, today, diff);
-  // var dayStr;
-  // useEffect(() => {
-  //   if (diff === 0 || diff === 1) dayStr = `${diff} day`
-  //   else if(diff>1 && diff <8) dayStr=`${diff} days`
-  // },[])
-  
+export const JobDetailsCard = ({jobDetails,bColor="white",flag=true}) => {
   const handleApply = () => {
     
+  };
+  const handleOpen = () => {
+    if(!flag) window.open(`http://localhost:3000/jobDetails/${jobDetails._id}`);
   }
   return ( 
-    <Box  margin={"2% 0"} padding={"2%"} textAlign={"start"} bgColor="#f3fbfd" lineHeight={2.5} boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
+    <Box margin={"2% 0"} padding={"2%"} textAlign={"start"} bgColor={bColor} lineHeight={2.5} boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
+      <Box onClick={handleOpen}>
         <HStack justifyContent={"space-between"}>
           <Text as={"p"}>Hot</Text>
           <Text as={"p"}>
             {/* {((date - publishDate) < 0) ? 0 : (date - publishDate)} */}
           {/* {jobDetails.id} */}
-          x days ago
+          {jobDetails.id} days ago
           </Text>
         </HStack>
       <Text as={"h3"} fontWeight={700} fontSize={"26px"}>{jobDetails.title}</Text>
@@ -42,22 +36,23 @@ export const JobDetailsCard = ({jobDetails}) => {
         </HStack>
         </HStack>
           <UnorderedList><ListItem>{jobDetails.job_type}</ListItem></UnorderedList>
-
+          </Box>
         <HStack justifyContent={["space-evenly", "space-between"]}>
           
         <Button colorScheme={"blue"} variant={"ghost"}
         onClick={handleApply}>Apply</Button>
 
+        {flag ?
           <HStack justifyContent="space-evenly" alignContent="baseline">
-            <Box bgColor={"white"} width={["50px",'80px']} padding="5% 0% 0% 2%">
-              <Stack direction={["column","row"]} alignItems="baseline" gap={["0px","2%"]}>
+            <Box bgColor={"white"} width={["50px", '80px']} padding="5% 0% 0% 2%">
+              <Stack direction={["column", "row"]} alignItems="baseline" gap={["0px", "2%"]}>
                 <FaShareSquare />
                 <Text>Share</Text>
               </Stack>
             </Box>
             
-            <Box bgColor={"white"} width={["120px",'150px']} padding="5% 0% 0% 2%">
-            <Stack direction={["column","row"]} alignItems="center" gap={["0px","2%"]}>
+            <Box bgColor={"white"} width={["120px", '150px']} padding="5% 0% 0% 2%">
+              <Stack direction={["column", "row"]} alignItems="center" gap={["0px", "2%"]}>
                 <Stack>
                   <Box style={style11}></Box>
                   <Box style={style11}></Box>
@@ -66,7 +61,8 @@ export const JobDetailsCard = ({jobDetails}) => {
               </Stack>
             </Box>
 
-        </HStack>
+          </HStack>
+          : ""}
         </HStack>
       </Box>
   )

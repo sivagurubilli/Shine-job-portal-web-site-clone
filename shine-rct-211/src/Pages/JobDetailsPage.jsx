@@ -1,26 +1,29 @@
-import React from 'react';
-import { Box, Button, Flex, ListItem, Text, List, Link,Grid,GridItem } from "@chakra-ui/react";
-import { useEffect } from 'react';
+import React, { useState,useEffect } from 'react';
+import { Box, Button, Flex, ListItem, Text, List, Grid,Link,GridItem } from "@chakra-ui/react";
 import { useDispatch, useSelector } from 'react-redux';
-import { getJobDetails } from '../Redux/SinglePage/action';
+import { getJobDetails, homeJobDetails } from '../Redux/SinglePage/action';
 import { JobDetailsCard } from "../Components/JobDetails/JobDetailsCard";
-import {MyCarousel } from '../Components/JobDetails/Carousel';
-import { useParams } from "react-router-dom'
+import { useParams,Link as RouterLink } from "react-router-dom";
+import { JobFilter } from '../Components/JobDetails/JobFilter';
 
-export const JobDetailsPage = () => {
+
+export const JobDetailsPage = ()=> {
   const { id } = useParams();
     const dispatch = useDispatch();
-    const jobDetails = useSelector(state => state.jobReducer.jobDetails);
+  const jobDetails = useSelector(state => state.jobReducer.jobDetails);
+
+
     useEffect(() => {
-        dispatch(getJobDetails(id));
-    }, [dispatch]);
+    dispatch(getJobDetails(id))
+
+  }, [dispatch,id]);
+
   
   
   return (
     < Box w="90%" margin="auto">
-
       {/* details card */}
-      <JobDetailsCard jobDetails={jobDetails} />
+      <JobDetailsCard jobDetails={jobDetails} bColor="#f3fbfd"/>
       
       {/* nav bar */}
       <Flex justifyContent={"space-evenly"}>
@@ -39,21 +42,22 @@ export const JobDetailsPage = () => {
         
         <Text>{jobDetails.title}</Text>
         <br></br>
-
-        <Text>Profile Requirement :</Text>
+        {(jobDetails.roles_responsibilities) ?
+          <Text>Profile Requirement :</Text> : ""}
         <List>
         {jobDetails.qualifications?.map((e) => (
           <ListItem key={e}>- {e}</ListItem>
         ))}
         </List>
         <br></br>
-        
-        <Text>Roles and responsibilities :</Text>
+        {(jobDetails.roles_responsibilities)?
+        <Text>Roles and responsibilities :</Text>: ""}
         <List>
         {jobDetails.roles_responsibilities?.map((e) => (
           <ListItem key={e}>- {e}</ListItem>
         ))}
         </List>
+          
         <br></br>
         
         <Text>Other Details :</Text>
@@ -126,7 +130,7 @@ export const JobDetailsPage = () => {
         margin="2% auto" padding="2%" >
           <Flex>
             {/* pagesearch icon */}
-            <Link>Get your Application Noticed</Link>
+            <RouterLink to="/application-highlighter">Get your Application Noticed</RouterLink>
             {/* arrow icon */}
           </Flex>
       </Box>
@@ -135,8 +139,14 @@ export const JobDetailsPage = () => {
       <Box boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
         textAlign="start"
         margin="2% auto" padding="2%" >
-      <Text as="h3" fontSize={"20px"} fontWeight={700}>Similar Jobs</Text>
-      <MyCarousel/>
+          <Text as="h3" fontSize={"20px"} fontWeight={700}>Similar Jobs</Text>
+          {/* <Flex>
+            {filterData?.map((e) => (
+              <JobDetailsCard jobDetails={e}/>
+            ))}
+          </Flex> */}
+          <JobFilter jobDetails={jobDetails}/>
+      {/* <MyCarousel/> */}
       </Box>
 
       </Box>
