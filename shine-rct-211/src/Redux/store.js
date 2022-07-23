@@ -4,7 +4,8 @@ import { jobDetailsReducer } from "../Redux/SinglePage/reducer";
 import {reducer as regReducer} from "./register/reducer"
 
 const rootReducer = combineReducers({
-    jobReducer:jobDetailsReducer,regReducer
+    jobReducer: jobDetailsReducer,
+    regReducer
 })
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

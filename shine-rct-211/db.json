@@ -41,6 +41,24 @@
         "fixed income","middle office","helping clients","captial market"],
          "company_details":"Accenture is a global management consulting and professional services firm that provides strategy, consulting, digital, technology and operations services. A Fortune Global 500 company, it has been incorporated in Dublin, Ireland, since 1 September 2009."
 
+       },
+
+       {
+       "id":1,
+        "title":"",
+        "publish_date":"",
+        "company_name":"",
+        "location":"",
+        "experience":"",
+        "job_type":"",
+        "job_details":[" "],
+         "qualifications":[""],
+         "roles_responsibilities":[""],
+         "department":" ",
+         "industry":"",
+         "education":"",
+         "skills":[],
+         "company_details":""
        }
 
     ]

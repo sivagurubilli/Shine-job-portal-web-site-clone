@@ -83,12 +83,12 @@ Making recruiter view your profile is the toughest and most difficult work for a
             <Box w="100px" p="2%" bg="white" textAlign={"center"}>
               <Radio defaultChecked></Radio>
             <Text>Rs 1699</Text>
-            <Text>90 days</Text>
+            <Text as="p">90 days</Text>
           </Box>
           <Box w="100px" p="2%" bg="white" textAlign={"center"}>
-              <Radio defaultChecked></Radio>
+              <Radio ></Radio>
               <Text>Rs 1699</Text>
-              <Text>180 days</Text>
+              <Text as="p">180 days</Text>
             </Box>
         </Flex>
       </Box>
@@ -111,14 +111,14 @@ Making recruiter view your profile is the toughest and most difficult work for a
               <Text>Place order and upload your latest resume</Text>
             </Box>
           </Flex>
-          <Flex direction={[ "column", "row"]}>
+          <Flex direction={[ "row", "column"]}>
           <Box className="jd_hiwbox"><RiNewspaperLine/></Box>
             <Box>
               <Text>Application Highlighted</Text>
               <Text>Apply to jobs & stand out among other applicants through highlighting your job application</Text>
             </Box>
           </Flex>
-          <Flex direction={[ "column", "row"]}>
+          <Flex direction={[ "row", "column"]}>
           <Box className="jd_hiwbox"><BiPhoneCall/></Box>
             <Box>
               <Text>Get Interview Calls</Text>

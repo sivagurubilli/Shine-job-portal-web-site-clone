@@ -18,4 +18,26 @@ const getJobDetails = (id) => dispatch=>{
     .catch((e)=>dispatch(getJobDetFail()))
 }
 
-export {getJobDetails}
+
+// home page job cards
+const homeJobDetReq = () => (
+    { type: types.HOME_JOB_DETAILS_GET_REQ }
+);
+const homeJobDetSucc = (payload) => (
+    { type: types.HOME_JOB_DETAILS_GET_SUCC, payload }
+);
+const homeJobDetFail = () => (
+    {type:types.HOME_JOB_DETAILS_GET_FAIL}
+)
+
+const homeJobDetails = (id) => dispatch=>{
+    dispatch(homeJobDetReq());
+    axios.get(`https://shine-jobs.herokuapp.com/jobDetails`)
+        .then((res) => dispatch(homeJobDetSucc(res.data)))
+    .catch((e)=>dispatch(homeJobDetFail()))
+}
+
+
+
+export {getJobDetails,homeJobDetails};
+
