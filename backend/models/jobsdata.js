@@ -9,7 +9,8 @@ const jobsdata= new mongoose.Schema({
    company:{type:String,required:true},
       exp:{type:Number},
       salary:{type:Number},
-      desc:{type:String}
+      desc:{type:String},
+      apply:{type:String,required:true}
 
 },
     {

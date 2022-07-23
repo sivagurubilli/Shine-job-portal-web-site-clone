@@ -1,0 +1,154 @@
+.blacksearch {
+    background: url("https://static1.shine.com/c/s1/images/candidate/new/home_new.png?b11cffa1c046") -237px -403px
+      #b1bac3;
+    width: 46px;
+    height: 39px;
+    float: right;
+  }
+
+  .searchInput {
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    line-height: 1.2;
+    text-align: left;
+    border: 0 none;
+    background-color: #fff;
+  }
+
+  .cross {
+    background: url("https://static1.shine.com/c/s1/images/candidate/new/home_2019.png?6740b54474de") -388px -90px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .boxjobs{
+   height: 200px;
+   width: 90%;
+   margin: 5px 20px 0px 30px;
+   border: 1px solid grey;
+   text-align: left;
+   background: #f6faff;
+   cursor: pointer;
+  }
+  .boxjobs:hover{
+    box-shadow: 0 1px 0 0 #99a6eb, 0 0 10px 0 rgb(0 0 0 / 10%);
+
+}
+
+  .rightjobs{
+    width: 35%;
+    max-height:130vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+
+}
+
+.maindiv{
+    width:800px;
+    height:1000px;
+   
+   margin: 50px 0 0 30px;
+}
+
+.companycard
+{
+    width: 95%;
+height: auto;
+padding-top: 3%;
+border: 1px solid inherit;
+margin: auto;
+text-align: left;
+margin-top: 1%;
+background-image: linear-gradient(129deg, #99a1ed 0%, #b18ace 100%);
+border-radius: 10px;
+box-shadow: -8px 8px 16px #dedede, 8px -8px 16px #ffffff;
+}
+
+.titledsc{
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 2%;
+    padding-left: 20px;
+    font-size: 25px;
+
+}
+
+.companyname{
+    width:90%;
+    height: auto;
+    padding-left:5%;
+    color:white;
+}
+.exp{
+    width: auto;
+    height: 20px;
+    /* border: 1px solid; */
+    padding: 2px;
+    padding-left:5%;
+}
+
+.salary{
+    width: auto;
+  height: 20px;
+  /* border: 1px solid; */
+  padding-left:5%;
+  padding-top: 10px;
+}
+.location{
+    width: 400px;
+    height: auto;
+    /* border: 1px solid; */
+    margin-left: 0.5%;
+ 
+    padding-top: 10px;
+    padding-left:5%;
+}
+
+.buttonbox{
+    width: auto;
+    height: auto;
+    padding-left: 2%;
+    display: flex;
+}
+
+.Applybtn{
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #fbb13b;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+.descrbox{
+ height: auto;
+ width: 90%;
+ border: 1px solid red;
+}
+.skills{
+    margin-top: 50px;
+    display: flex;
+
+}
+.skills h3{
+    margin: 30px 0 0 10px;
+}
+
+.skills h2{
+    margin : 30px 0 0 60px;
+}
+
+.discr{
+    margin : 30px 0 0 70px;
+    text-align: left;
+}
