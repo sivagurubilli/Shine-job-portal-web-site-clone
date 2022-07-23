@@ -10,7 +10,7 @@ const Career = () => {
             <div style={{ marginTop: "4px" }}>
               <i class="fa-solid fa-magnifying-glass-minus"></i>
             </div>
-            <h4 style={{ marginTop: "4px" }}>Search Your Dream Career</h4>
+            <a href="https://www.shine.com/new/job-search"><h4 style={{ marginTop: "4px" }}>Search Your Dream Career</h4></a>
           </div>
         </div>
 
@@ -19,7 +19,7 @@ const Career = () => {
             <div style={{ marginTop: "4px" }}>
               <i class="fa-solid fa-user-plus"></i>
             </div>
-            <h4 style={{ marginTop: "4px" }}>Create Your Profile</h4>
+            <a href="https://www.shine.com/registration/parser/"><h4 style={{ marginTop: "4px",textDecoration:"none" }}>Create Your Profile</h4></a>
           </div>
         </div>
       </div>

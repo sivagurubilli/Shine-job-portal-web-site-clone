@@ -8,13 +8,14 @@ export const register =(payload)=>(dispatch)=>{
     dispatch({type:types.REGISTER_REQUEST})
 
     return axios.post("http://localhost:5000/reg",payload).then(r=>{
-        console.log(r)
+     alert(r.data)
         dispatch({type:types.REGISTER_SUCCESS,payload:r.data})
+        console.log(r)
         return r
 
 
     }).catch(e=>{
-        console.log(e)
+        alert(e.response.data)
 dispatch({type:types.REGISTER_FAILURE,payload:e})
 return e
     })

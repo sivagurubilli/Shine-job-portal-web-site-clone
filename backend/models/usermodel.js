@@ -1,6 +1,6 @@
 
 const mongoose = require("mongoose")
-const Registerusers = new mongoose.Schema({
+const Registusers = new mongoose.Schema({
    name:{type:String,required:true},
    email:{type:String,required:true},
    mobile:{type:Number,required:true},
@@ -9,11 +9,11 @@ const Registerusers = new mongoose.Schema({
  location:{type:String,required:true}, 
    degree:{type:String,required:true}, 
    college:{type:String}, 
-   year:{type:String,required:true},
+   year:{type:Number,required:true},
    course:{type:String,required:true},
   
 })
 
 
 
-module.exports = mongoose.model("Registerusers",Registerusers)
+module.exports = mongoose.model("Registusers",Registusers)

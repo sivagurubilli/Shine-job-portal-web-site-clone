@@ -80,7 +80,7 @@ className ={styles.boxjobs}
     marginTop:"10PX"
   }}
 
->{el.title}</h1>
+>position -   {el.title}</h1>
 
 
 <h2  style={{
@@ -156,7 +156,7 @@ onClick={()=>alert("sucees fully submitted to this position")
 
   </div>
   
-  <Jobdesc dsc={dis} apply={apply} sa={sa} />
+  {dis&& <Jobdesc dsc={dis} apply={apply} sa={sa} />}
        </div>
        
 
