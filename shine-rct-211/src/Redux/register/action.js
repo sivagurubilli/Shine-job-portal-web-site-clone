@@ -21,3 +21,24 @@ return e
 
 
 }
+
+export const login =(payload)=>(dispatch)=>{
+   
+    dispatch({type:types.LOGIN_REQUEST})
+    return axios.post("http://localhost:5000/log",payload).then(r=>{
+        dispatch({type:types.LOGIN_SUCCESS,payload:r.data})
+    
+        console.log(r.data.userdata)
+         alert(r.data.message)
+        return ("success")
+        
+    
+       
+    }).catch(e=>{
+        dispatch({type:types.LOGIN_FAILURE})
+       
+        console.log(e)
+        alert(e.data.message)
+        return e
+    })
+}

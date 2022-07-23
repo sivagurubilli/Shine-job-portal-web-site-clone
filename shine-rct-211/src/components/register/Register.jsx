@@ -8,7 +8,7 @@ import {register} from "../../Redux/register/action"
 import {Navigate, useNavigate,} from "react-router-dom"
 import styles from "../register/Register.module.css"
 import { Button } from '@chakra-ui/react'
-
+import { v4 as uuidv4 } from 'uuid';
 const Register = () => {
 
 const navigate = useNavigate()
@@ -73,11 +73,11 @@ const addskilss =()=>{
   }
   
 
-  const [gologin,setgologin] = useState(false)
 
-  const logintab=()=>{
-  setgologin((pre)=>!pre)
+const logintab=()=>{
+  navigate("/login")
 }
+ 
 
 const sendpayload=()=>{
   const payload = {name,email,mobile,pass,gender,location,degree,
@@ -98,7 +98,9 @@ college,year,course}
 navigate("/register")
  })
 
-    college, year, course
+   
+   
+
    
   }
 
@@ -290,7 +292,7 @@ not disclose</button>
 <div className ={styles.cont}>
       <div className={styles.container}>
         <div className={styles.container2}>
-          <h4 style={{fontSize:'22px',fontweight:"800",marginLeft:"8%",marginRight:"3px",
+          <h4 style={{fontSize:'22px',fontweight:"800",marginLeft:"2%",marginRight:"200px",marginTop:"100px",
         color:"rgb(75,75,75"}}>what is your higest qualification</h4>
         </div>
 
@@ -453,8 +455,8 @@ onClick={()=>addskilss()}
 
 <div style ={{padding:"10px 10px 10px 10px"}}>
   {skills.map((item)=>{
-    return <button className={styles.identity_third}
-    style={{float:"left",margin:"5px 5px 5px 5px"}}>
+    return < button className={styles.identity_third}
+    style={{float:"left",margin:"5px 5px 5px 5px"}}  key ={uuidv4()} >
       <h4 style={{
         marginLeft:'5px',marginTop:"8px",color:"grey",float:'left'
       }}>{item}</h4>
