@@ -5,6 +5,7 @@ import { getJobDetails, homeJobDetails } from '../Redux/SinglePage/action';
 import { JobDetailsCard } from "../Components/JobDetails/JobDetailsCard";
 import { useParams,Link as RouterLink } from "react-router-dom";
 import { JobFilter } from '../Components/JobDetails/JobFilter';
+import {MyCarousel } from '../Components/JobDetails/Carousel'
 
 
 export const JobDetailsPage = ()=> {

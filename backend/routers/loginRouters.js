@@ -26,7 +26,7 @@ router.post("/",async(req,res)=>{
       (err,token)=>{
           if(err)throw err;
   
-          return res.status(200).send({token,message:"succsessfully loggedin",userdata:exist.firstname,isAuth:true})
+          return res.status(200).send({token,message:"succsessfully loggedin",userdata:exist.name,isAuth:true})
       })
   
   
