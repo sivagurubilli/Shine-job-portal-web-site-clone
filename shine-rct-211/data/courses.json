@@ -1,0 +1,103 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "My Job Thought Report",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2F1762%2F1509623306_9589.png&w=64&q=75",
+      "author": "TMTR",
+      "rating": "4.5",
+      "price": 3599,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    },
+    {
+      "id": 2,
+      "title": "Job Search Guidance With Job",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2F1763%2F1509606404_7754.png&w=64&q=75",
+      "author": "TMTR",
+      "rating": "4.35",
+      "price": 5899,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    },
+    {
+      "id": 3,
+      "title": "Job and Interview Assistance",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1507539200_2178.png&w=640&q=75",
+      "author": "TMTR",
+      "rating": "5",
+      "price": 15000,
+      "course_tag": "course",
+      "duration": "90 min",
+      "mode": "online"
+    },
+    {
+      "id": 4,
+      "title": "Interview Coaching by Sarabjeet Sachar",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1531217539_104.png&w=64&q=75",
+      "author": "Aspiration Plus",
+      "rating": "4.5",
+      "price": 12999,
+      "course_tag": "course",
+      "duration": "5 hours",
+      "mode": "online"
+    },
+    {
+      "id": 5,
+      "title": "Career Management essentials",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1555567197_8106.png&w=64&q=75",
+      "author": "ERB",
+      "rating": "3.41",
+      "price": 2000,
+      "course_tag": "course",
+      "duration": "365 days",
+      "mode": "online"
+    },
+    {
+      "id": 6,
+      "title": "Career Growth for Professional Success",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1555569676_921.png&w=64&q=75",
+      "author": "ERB",
+      "rating": "3.43",
+      "price": 19999,
+      "course_tag": "course",
+      "duration": "365 days",
+      "mode": "online"
+    },
+    {
+      "id": 7,
+      "title": "Career Assessment Test",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2F4278%2F1562766355_2113.png&w=64&q=75",
+      "author": "TestPrepTraining",
+      "rating": "3.62",
+      "price": 3499,
+      "course_tag": "course",
+      "duration": "90 mins",
+      "mode": "online"
+    },
+    {
+      "id": 8,
+      "title": "Career Assessment Test with Expert Counselling",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2F4278%2F1562766355_2113.png&w=64&q=75",
+      "author": "TestPrepTraining",
+      "rating": "3.8",
+      "price": 6999,
+      "course_tag": "course",
+      "duration": "90 mins",
+      "mode": "online"
+    },
+    {
+      "id": 9,
+      "title": "Certificate in Self Career Management",
+      "avatar": "https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1563611550_9379.png&w=64&q=75",
+      "author": "vskills",
+      "rating": "3.8",
+      "price": 3499,
+      "course_tag": "course",
+      "duration": "10 Hours",
+      "mode": "online"
+    }
+  ]
+}
