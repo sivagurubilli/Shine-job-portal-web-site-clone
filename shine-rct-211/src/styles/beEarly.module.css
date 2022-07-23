@@ -1,0 +1,46 @@
+.chiki{
+  display: flex;
+  gap:20px;
+  width:80%;
+  margin: auto;
+  
+  
+}
+.subhasree{
+  
+  width:400px;
+  height:200px;
+  /* border:1px solid black; */
+  text-align:left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.limca{
+  width:350px;
+  height:200px;
+  margin:10px 25px;
+  /* border:1px solid black; */
+  
+  
+}
+.exp{
+  display: flex;
+  gap:20px;
+  color:rgb(125, 122, 122);
+}
+.para{
+  display: flex;
+  font-size:10px;
+  gap: 20px;
+  color:rgb(125, 122, 122);
+}
+.yami{
+  margin-top:40px;
+  text-align:right;
+  color:rgb(149, 80, 234);
+  font-weight: 600;
+}
+
+.haram{
+  color:rgb(125, 122, 122);
+}

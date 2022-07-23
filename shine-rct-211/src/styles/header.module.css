@@ -1,0 +1,23 @@
+.diva{
+    display:flex;
+    gap:4px;
+    margin-top:10px;
+}
+
+.nisha{
+    display:flex;
+    height:30px;
+    gap:30px;
+    justify-content:right;
+    margin-top:0px;
+    margin-right: 80px;
+}
+
+.topnish{
+    height:45px;
+    width:100%;
+    /* border:1px solid black; */
+    background-color:rgb(241, 243, 245);
+    /* position: relative; */
+    
+}
