@@ -21,9 +21,9 @@ const Routesall = () => {
                     </Route>
                     <Route path="/register" element={<Register />}></Route>
                 <Route path="/jobDetails/:id" element={
-                    // <PrivateRoute>
+                    <PrivateRoute>
                         <JobDetailsPage />
-                    // </PrivateRoute>
+                    </PrivateRoute>
                 } />
             </Routes>
         </div>
