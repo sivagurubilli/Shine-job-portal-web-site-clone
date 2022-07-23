@@ -85,16 +85,18 @@ const sendpayload=()=>{
 college,year,course}
 
  dispatch(register(payload)).then((r)=>{
-  
-  alert(r.response.data)
-  if(r.response.status===200){
+
+
+if(r.status===200){
+ 
     navigate("/login")
   }else{
     navigate("/register")
   }
   
  }).catch((e)=>{
- alert(e.response)
+  
+
 navigate("/register")
  })
 

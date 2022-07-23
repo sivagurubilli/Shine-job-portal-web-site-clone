@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useEffect } from "react";
 import styles from "./Jobspage.module.css";
 const payload = {
@@ -14,7 +15,11 @@ function AdvanceSearching({ setIsAuth }) {
  
 
   const handleSubmit =()=>{
+  axios.get("http://localhost:5000/getjobs").then((r)=>{
 
+  }).catch((e)=>{
+    console.log(e)
+  })
   }
 
 
@@ -61,7 +66,7 @@ function AdvanceSearching({ setIsAuth }) {
     setUserData({ ...userData, [name]: value });
   };
 
-  console.log(userData);
+
   return (
     <div>
       <button

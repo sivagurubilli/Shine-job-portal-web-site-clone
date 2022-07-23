@@ -26,8 +26,9 @@
    height: 200px;
    width: 90%;
    margin: 5px 20px 0px 30px;
-   border: 1px solid grey;
+   border: 0px solid grey;
    text-align: left;
+   border-radius: 3%;
    background: #f6faff;
    cursor: pointer;
   }
@@ -37,7 +38,7 @@
 }
 
   .rightjobs{
-    width: 35%;
+    width: 40%;
     max-height:130vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -46,7 +47,7 @@
 }
 
 .maindiv{
-    width:800px;
+    width:60%;
     height:1000px;
    
    margin: 50px 0 0 30px;
@@ -54,7 +55,7 @@
 
 .companycard
 {
-    width: 95%;
+    width: 125%;
 height: auto;
 padding-top: 3%;
 border: 1px solid inherit;
@@ -87,6 +88,7 @@ box-shadow: -8px 8px 16px #dedede, 8px -8px 16px #ffffff;
     height: 20px;
     /* border: 1px solid; */
     padding: 2px;
+    color:white;
     padding-left:5%;
 }
 
@@ -95,6 +97,7 @@ box-shadow: -8px 8px 16px #dedede, 8px -8px 16px #ffffff;
   height: 20px;
   /* border: 1px solid; */
   padding-left:5%;
+  color:white;
   padding-top: 10px;
 }
 .location{
@@ -102,7 +105,7 @@ box-shadow: -8px 8px 16px #dedede, 8px -8px 16px #ffffff;
     height: auto;
     /* border: 1px solid; */
     margin-left: 0.5%;
- 
+    color:white;
     padding-top: 10px;
     padding-left:5%;
 }

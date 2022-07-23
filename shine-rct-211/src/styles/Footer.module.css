@@ -1,0 +1,102 @@
+.rekha{
+    height:300px;
+    width:100%;
+    /* border: 1px solid black; */
+    margin-top:0px;
+    /* background-color:rgb(231, 231, 226); */
+}
+.mum{
+    display: flex;
+    height:300px;
+    width:85%;
+    /* border: 3px solid rgb(237, 27, 27); */
+    margin: auto;
+    padding-top:40px;
+    /* margin-top: 25px; */
+}
+
+.chipku{
+    height:280px;
+    width:250px;
+    /* border: 3px solid rgb(57, 9, 188); */
+    margin: auto;
+}
+.papaya{
+    height:250px;
+    width:200px;
+    line-height: 9px;
+    text-align: left;
+    margin-left: 30px;
+    font-size:14px;
+    /* border: 3px solid rgb(18, 118, 60); */
+}
+
+.dugu{
+    display: flex;
+    margin-top: 7px;
+    gap: 30px;
+    
+}
+
+.chepi{
+    width:40px;
+    height: 30px;
+}
+
+.bebu{
+    width:90px;
+    height: 90px;
+    margin-right: 100px;
+    /* border: 1px solid black */
+}
+
+.tree{
+    color: rgb(151, 75, 233);
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+.tree>a{
+    text-decoration: none;
+    color: rgb(151, 75, 233);
+}
+
+.gold{
+    display: flex;
+    gap: 20px;
+    font-size:20px;
+}
+
+
+.h1{
+    color: rgb(26, 8, 225)
+}
+
+.h2{
+    color:rgb(71, 133, 226);
+}
+.h3{
+    color:rgb(37, 61, 125);
+}
+
+
+
+.footer_body_bottom {
+    height:70px;
+    border-top:1px solid rgb(210, 206, 206);
+	margin: 0.6rem 0rem;
+	font-size: 13px;
+	color: #546473;
+	display: flex;
+	justify-content: space-between;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.footer_body_bottom > div > span {
+	padding: 0px 6px;
+	cursor: pointer;
+}
+.footer_body_bottom_right {
+	margin-right: 2rem;
+}
