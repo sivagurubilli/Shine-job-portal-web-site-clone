@@ -1,0 +1,95 @@
+.nav {
+	background-color:white ;
+	width: 100%;
+	font-family: "PT Sans", sans-serif;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 10%);
+	color: black;
+	font-weight: 400;
+	position: sticky;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	height: 60px;
+	margin-top: -1px;
+	border-top:1px solid #d3d4d4;
+}
+.nav_tab{
+	font-size:13px;
+	font-weight: 700;
+}
+.nav_left {
+	width: 55%;
+	font-size: 15px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 10%);
+	color: black;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 80px;
+}
+
+
+.nav_tab,
+.nav_left > li {
+	padding: 6px 10px;
+	line-height: 1.5;
+	margin-right: 1rem;
+	position: relative;
+}
+
+.jobs,
+.resources {
+	position: absolute;
+	color: #212529;
+	width: 192px;
+	background: #fff;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 20%);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	top: 30px;
+	display: none;
+	transition: 0.5s;
+	font-size: 14px;
+}
+.jobs > li,
+.resources > li {
+	margin-top: 8px;
+	padding: 8px;
+	padding-left: 15px;
+	cursor: pointer;
+	text-align: left;
+	width: 170px;
+}
+.jobs > li:hover,
+.resources > li:hover {
+	/* background: #eee0ff; */
+	color:#8d45e6;
+
+}
+.nav_right > li {
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+.nav_tab:hover,
+.nav_right > li:hover {
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 5px;
+	color: #212529;
+}
+.drop_down {
+	position: relative;
+	display: inline-block;
+}
+.drop_down:hover .jobs,
+.drop_down:hover .resources {
+	display: block;
+}
+
