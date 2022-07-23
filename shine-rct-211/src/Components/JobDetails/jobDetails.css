@@ -1,0 +1,14 @@
+.jd_container{
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-align:start;
+        margin:2% auto ;
+        padding:2%
+}
+
+.jd_hiwbox{
+    width:2rem;
+    height:2rem;
+    border-radius: 50% 50% 0 50%;
+background:#f3fbfd;
+padding: 5px 10px 0 10px;
+}

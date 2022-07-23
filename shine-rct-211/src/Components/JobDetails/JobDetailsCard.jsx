@@ -15,14 +15,17 @@ export const JobDetailsCard = ({jobDetails}) => {
   //   else if(diff>1 && diff <8) dayStr=`${diff} days`
   // },[])
   
-
+  const handleApply = () => {
+    
+  }
   return ( 
     <Box  margin={"2% 0"} padding={"2%"} textAlign={"start"} bgColor="#f3fbfd" lineHeight={2.5} boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
         <HStack justifyContent={"space-between"}>
           <Text as={"p"}>Hot</Text>
           <Text as={"p"}>
             {/* {((date - publishDate) < 0) ? 0 : (date - publishDate)} */}
-            {jobDetails.id} days ago
+          {/* {jobDetails.id} */}
+          x days ago
           </Text>
         </HStack>
       <Text as={"h3"} fontWeight={700} fontSize={"26px"}>{jobDetails.title}</Text>
@@ -42,7 +45,8 @@ export const JobDetailsCard = ({jobDetails}) => {
 
         <HStack justifyContent={["space-evenly", "space-between"]}>
           
-          <Button colorScheme={"blue"} variant={"ghost"}>Apply</Button>
+        <Button colorScheme={"blue"} variant={"ghost"}
+        onClick={handleApply}>Apply</Button>
 
           <HStack justifyContent="space-evenly" alignContent="baseline">
             <Box bgColor={"white"} width={["50px",'80px']} padding="5% 0% 0% 2%">
