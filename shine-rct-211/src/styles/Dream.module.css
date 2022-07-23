@@ -1,27 +1,38 @@
-/* div>img{
-    height:70px;
-    width:70px;
-} */
-
-/* img{
-    background-color: rgba(123, 178, 228, 0.815);
-} */
-
-#dream{
+.out{
     display:flex;
-    width:35%;
-    gap:30px;
+    height:200px;
+    gap:20px;
     margin:auto;
+    width:80%;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.dream{
+   height:130px;
+   
+}
+.dre{
+    margin: auto;
+    width:80%;
+    gap:40px;
+    
 }
 
-#dream >button{
+.subha{
+    border: 1px solid rgb(210, 207, 207);
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    
+}
+
+.dre >button{
     border-radius: 40px;
     width:300px;
     height:30px;
+    border: none;
+    background-color: rgb(198, 190, 231);
 }
 
-.para{
-    width:200px;
-    height:30px;
-    border:3px solid black;
+.comp{
+    height:50px;
+    width:90px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../styles/NavBar.module.css";
+import {Link} from "react-router-dom"
 
 export function NavBar() {
   return (
@@ -7,7 +8,7 @@ export function NavBar() {
       <div className={styles.nav_left}>
     
         <div className={styles.drop_down}>
-          <li className={styles.nav_tab}>HOME</li>
+          <Link to="/" className={styles.nav_tab}>HOME</Link>
           <div className={styles.jobs}>
             
           </div>
