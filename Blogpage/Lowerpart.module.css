@@ -1,0 +1,15 @@
+.lowerpart{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.lowerpart1{
+    display: flex;
+    gap: 30px;
+   margin-left: 60px;
+}
+.lowerpart2{
+    display: flex;
+    gap: 20px;
+    margin-right: 70px;
+}
