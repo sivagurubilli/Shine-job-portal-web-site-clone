@@ -1,0 +1,21 @@
+.learn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.leftnav{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+}
+.rightnav{
+    display: flex;
+    gap: 20px; 
+    margin-right: 40px;
+}
+
+.blognav2{
+    display: flex;
+    gap: 20px;
+    margin-left: 65px;
+}

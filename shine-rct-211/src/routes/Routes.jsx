@@ -10,14 +10,14 @@ import Home from "../Components/Homepage/Home"
 import {JobDetailsPage} from "../Pages/JobDetailsPage"
 import { ApplicationInsights } from "../Components/JobDetails/ApplicationInsights"; 
 import { PrivateRoute } from "../Components/JobDetails/PrivateRoute"
-<<<<<<< HEAD
-=======
+
 
 
 import { FinalCard } from "../Components/JobDetails/FinalCard"
 
->>>>>>> af93c4c303543fa99729543653f1b4d370282dcf
 import Alljobspage from "../Components/jobspage/Alljobspage";
+import SalesAndMarketing from "../../src/Components/Courses/SalesAndMarketing/SalesAndMarketing"
+import BlogHome from "../Components/Blogpage/BlogHome"
 
 
 const Routesall = () => {
@@ -29,6 +29,8 @@ const Routesall = () => {
                     <Route path="/login" element={<Login />}>
 
                     </Route>
+                    <Route path ="/blogs" element ={<BlogHome/>}></Route>
+                    <Route path ="/courses" element={<SalesAndMarketing/>}></Route>
                     <Route path="/register" element={<Register />}></Route>
                    <Route path = "/alljobs" element={<Alljobspage />}></Route>
 

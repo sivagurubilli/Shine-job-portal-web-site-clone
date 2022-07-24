@@ -34,7 +34,7 @@ export function NavBar() {
         <div className={styles.drop_down}>
           <li className={styles.nav_tab}>COURSES</li>
           <div className={styles.resources}>
-            <li>Sales and Marketing</li>
+           <Link to="courses"> <li>Sales and Marketing</li></Link>
             <li>Information and Technology</li>
             <li>Operation Management</li>
             <li>Human Resource</li>
@@ -42,7 +42,7 @@ export function NavBar() {
         </div>
 
         <li className={styles.nav_tab}>CAREER GUIDANCE</li>
-        <li className={styles.nav_tab}>BLOG</li>
+        <Link to="blogs"><li className={styles.nav_tab}>BLOG</li></Link>
       </div>
     </nav>
   );

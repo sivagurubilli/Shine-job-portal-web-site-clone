@@ -9,6 +9,7 @@ import { IoLocationSharp} from "react-icons/io5";
 import styles from "./Jobspage.module.css"
 
 import SearchBar from "./Searchbar";
+import Footer from "../Homepage/Footer";
 
 function Alljobspage (){
     const [page, setPage] = useState(1);
@@ -160,7 +161,7 @@ onClick={()=>alert("sucees fully submitted to this position")
        </div>
        
 
-
+<Footer />
         </div>
     )
 }
