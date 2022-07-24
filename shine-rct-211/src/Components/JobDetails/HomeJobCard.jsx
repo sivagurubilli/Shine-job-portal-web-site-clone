@@ -2,7 +2,7 @@ import { Box, Button, HStack, Icon, Text,ListItem, Stack, UnorderedList } from '
 import React from 'react'
 import { FaBriefcase} from 'react-icons/fa'
 import { GrLocation } from 'react-icons/gr'
-
+import {Link as RouteLink} from "react-router-dom"
 export const HomeJobCard = ({ jobDetails, bColor = "white" }) => {
     
   const handleApply = () => {
@@ -34,8 +34,8 @@ export const HomeJobCard = ({ jobDetails, bColor = "white" }) => {
           <UnorderedList><ListItem>{jobDetails.job_type}</ListItem></UnorderedList>
 
         <HStack justifyContent={"right"}>
-        <Button colorScheme={"blue"} variant={"ghost"}
-        onClick={handleApply}>Apply</Button>
+       <RouteLink to="/final"><Button colorScheme={"blue"} variant={"ghost"}
+        >Apply</Button></RouteLink>
         </HStack>
       </Box>
   )
