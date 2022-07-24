@@ -2,42 +2,13 @@ import React from 'react'
 import styles from "../../styles/Footer.module.css"
 
 const Footer = () => {
-<<<<<<< HEAD
+
     return (
-=======
-  return (
-    <>
->>>>>>> a8293eeb179413351d36eb34e58127f6eccd1d36
+<>
     <div className={styles.rekha}>
     <div className={styles.mum}>
 
-<<<<<<< HEAD
-    <div >
-         <div></div>
-         </div>
 
-  <div>
-            <div></div>
-            </div>
-
-
-         <div>
-                 <div></div>
-             </div>
-
-
-             <div>
-                 <div></div>
-             </div>
-
-
-             <div>
-                 <div></div>
-             </div>
-
-         </div>
-     </div>
-=======
             <div className={styles.chipku}>
                 <div className={styles.papaya}>
                     <img className={styles.bebu} src="https://www.shine.com/next/static/images/NewShinelogo.gif"/>
@@ -149,7 +120,7 @@ const Footer = () => {
 
 
     </>
->>>>>>> a8293eeb179413351d36eb34e58127f6eccd1d36
+
   )
 }
 

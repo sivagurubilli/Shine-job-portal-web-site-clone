@@ -14,7 +14,6 @@ import { PrivateRoute } from "../Components/JobDetails/PrivateRoute"
 
 import { FinalCard } from "../Components/JobDetails/FinalCard"
 
-import { ApplicationInsights } from "../Components/JobDetails/ApplicationInsights"; 
 import Alljobspage from "../Components/jobspage/Alljobspage";
 
 
@@ -37,7 +36,7 @@ const Routesall = () => {
 
                     
            
-           <Route path="/final" element={<FinalCard/>}/>
+           <Route path="/final" element={<PrivateRoute><FinalCard/></PrivateRoute>}/>
                     <Route path="/alljobs" element={ <Alljobspage /> }></Route>
 
            
