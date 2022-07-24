@@ -1,0 +1,141 @@
+.course-main-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 1140px;
+  justify-content: space-between;
+  grid-gap: 50px 0px;
+}
+
+.course {
+  margin: auto;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.course-sub {
+  height: 190px;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.course-content-left {
+  width: 55px;
+  height: 70%;
+}
+
+.course-content-right {
+  width: 218px;
+  height: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-tag {
+  color: #232434;
+  font-size: 14px;
+  text-align: left;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.course-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #38404c;
+  font-weight: 700;
+  text-align: left;
+  margin: 0%;
+}
+
+.rating > .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+  color: #e68f57;
+  font-size: 15px;
+  margin: 0 0 0 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #38404c;
+  margin-top: 15px;
+}
+
+.author {
+  font-size: 14px;
+  line-height: 19px;
+  color: #505e6b;
+  text-align: left;
+  margin: 0%;
+}
+
+.duration {
+  font-size: 13px;
+  line-height: 19px;
+  color: #505e6b;
+  text-align: left;
+  margin: 0%;
+}
+
+.author-and-duration {
+  margin: 0%;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #38404c;
+}
+
+.explore-and-btn {
+  /* margin: auto; */
+  height: 44px;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.explore-and-btn > a {
+  text-decoration: none;
+}
+
+.explore {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #7c44ff;
+  margin-bottom: 5px;
+}
+
+.buy-btn {
+  background-color: #7c44ff;
+  border: none;
+  color: #fff !important;
+  box-shadow: 0 4px 10px 0 rgba(144, 96, 255, 0.3);
+  padding: 0.5rem 2rem;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.buy-btn:hover {
+  background-color: #5811ff;
+}

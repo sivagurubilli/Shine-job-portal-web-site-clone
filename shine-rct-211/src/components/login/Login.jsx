@@ -4,6 +4,7 @@ import  styles from "./login.module.css"
 import { login } from '../../Redux/register/action'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
+import Footer from '../Homepage/Footer'
 const Login = () => {
 const dispatch = useDispatch()
 const navigate = useNavigate()
@@ -119,8 +120,7 @@ Research industries and employ our career services to be better equipped for you
 </div>
 
 
-
-     
+<Footer />
 
     </div>
   )

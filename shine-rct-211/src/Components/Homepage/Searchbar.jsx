@@ -1,10 +1,12 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import styles from "../../styles/search.module.css";
-
+import {Link} from "react-router-dom"
 const Searchbar = () => {
 
   const username =useSelector(store=>store.regReducer.username)
+  const isAuth = useSelector(store=>store.regReducer.isAuth)
+  console.log(isAuth)
   console.log(username)
   return (
     <div className={styles.hardik}>
@@ -27,8 +29,11 @@ const Searchbar = () => {
       <div className={styles.rightt}>
         <div><i class="fa-solid fa-bell"></i></div>
         <div><i class="fa-solid fa-cart-shopping"></i></div>
-        <div><i class="fa-solid fa-user"></i></div>
        
+     {isAuth===false ?   <div><Link to ="/register"><i class="fa-solid fa-user"></i></Link></div>:username}
+    
+   
+
       </div>
       </div>
     </div>
