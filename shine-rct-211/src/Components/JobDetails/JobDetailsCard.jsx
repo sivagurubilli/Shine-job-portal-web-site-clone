@@ -3,6 +3,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { FaBriefcase, FaShareSquare } from 'react-icons/fa'
 import { GrLocation } from 'react-icons/gr'
+import {Link as RouteLink} from "react-router-dom"
 
 export const JobDetailsCard = ({jobDetails,bColor="white",flag=true}) => {
   const handleApply = () => {
@@ -39,8 +40,8 @@ export const JobDetailsCard = ({jobDetails,bColor="white",flag=true}) => {
           </Box>
         <HStack justifyContent={["space-evenly", "space-between"]}>
           
-        <Button colorScheme={"blue"} variant={"ghost"}
-        onClick={handleApply}>Apply</Button>
+          <RouteLink to="/final"><Button colorScheme={"blue"} variant={"ghost"}
+        >Apply</Button></RouteLink>
 
         {flag ?
           <HStack justifyContent="space-evenly" alignContent="baseline">

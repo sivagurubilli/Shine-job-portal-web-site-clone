@@ -10,6 +10,13 @@ import Home from "../Components/Homepage/Home"
 import {JobDetailsPage} from "../Pages/JobDetailsPage"
 import { ApplicationInsights } from "../Components/JobDetails/ApplicationInsights"; 
 import { PrivateRoute } from "../Components/JobDetails/PrivateRoute"
+<<<<<<< HEAD
+=======
+
+
+import { FinalCard } from "../Components/JobDetails/FinalCard"
+
+>>>>>>> af93c4c303543fa99729543653f1b4d370282dcf
 import Alljobspage from "../Components/jobspage/Alljobspage";
 
 
@@ -33,7 +40,7 @@ const Routesall = () => {
 
                     
            
-           
+           <Route path="/final" element={<PrivateRoute><FinalCard/></PrivateRoute>}/>
                     <Route path="/alljobs" element={ <Alljobspage /> }></Route>
 
            

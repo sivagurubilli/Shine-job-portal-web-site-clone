@@ -13,18 +13,18 @@ export const JobFilter = ({jobDetails}) => {
         const data = [...fullData];
         var filD=[...filterData]
       data.map((item, index) => {
-        var ind = (jobDetails.industry).trim();
-          var x=item.industry.trim();
-          if (ind === "IT - Software" || ind === " IT- Software" ) {
-            if (x === ind || x === "IT- Software") {
+        //var ind = (jobDetails.industry).trim();
+          //var x=item.industry.trim();
+          //if (ind === "IT - Software" || ind === " IT- Software" ) {
+           // if (x === ind || x === "IT- Software") {
+               // filD.push(item);
+               // console.log("yes",index)
+            //}
+          //} else {
+            if (item.industry=== jobDetails.industry) {
                 filD.push(item);
-                console.log("yes",index)
             }
-          } else {
-            if (x === ind) {
-                filD.push(item);
-            }
-            }
+            //}
             console.log(filD);
             setFilterData(filD);
       });
