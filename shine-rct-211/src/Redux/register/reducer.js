@@ -20,14 +20,14 @@ export const reducer = (state= initState,action)=>{
         case types.REGISTER_REQUEST:
             return{...state,isLoading:true};
             case types.REGISTER_SUCCESS:
-                return {...state,isLoading:false,isAuth:true,token:payload.token,username:payload.userdata};
+                return {...state,isLoading:false};
                 case types.REGISTER_FAILURE:
                     return{...state,isLoading:false,isError:true};
                case types.LOGIN_REQUEST:
                 return  {...state,isLoading:true}
 
 case types.LOGIN_SUCCESS:
-    return {...state,isLoading:false,isAuth:true}
+    return {...state,isLoading:false,isAuth:true,token:payload.token,username:payload.userdata}
 case types.LOGIN_FAILURE:
 return {...state,isError:true}           
          default:

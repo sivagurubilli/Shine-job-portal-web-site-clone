@@ -17,7 +17,7 @@ export function NavBar() {
         <div className={styles.drop_down}>
           <li className={styles.nav_tab}>JOBS</li>
           <div className={styles.jobs}>
-            <li>Search</li>
+            <li><Link to ="/alljobs">Search</Link></li>
             <li>Job Alert</li>
           </div>
         </div>

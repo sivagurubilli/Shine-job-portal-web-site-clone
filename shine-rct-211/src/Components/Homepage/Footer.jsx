@@ -3,6 +3,10 @@ import styles from "../../styles/Footer.module.css"
 
 const Footer = () => {
 
+
+ 
+ 
+          
     return (
 <>
     <div className={styles.rekha}>
@@ -107,7 +111,7 @@ const Footer = () => {
                     |
                     <span>English News</span>
                     |
-                    <span>Terms & Conditions</span>
+                    <span>Terms and Conditions</span>
                     |
                     <span>Discalimer</span>
                     |
@@ -120,6 +124,7 @@ const Footer = () => {
 
 
     </>
+
 
   )
 }

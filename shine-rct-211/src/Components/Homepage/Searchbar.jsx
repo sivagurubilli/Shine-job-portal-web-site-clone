@@ -1,7 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import styles from "../../styles/search.module.css";
 
 const Searchbar = () => {
+
+  const username =useSelector(store=>store.regReducer.username)
+  console.log(username)
   return (
     <div className={styles.hardik}>
       <div className={styles.leftt}>

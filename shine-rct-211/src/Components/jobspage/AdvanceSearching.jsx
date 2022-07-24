@@ -15,7 +15,7 @@ function AdvanceSearching({ setIsAuth }) {
  
 
   const handleSubmit =()=>{
-  axios.get("http://localhost:5000/getjobs").then((r)=>{
+  axios.get("https://shinebackend.herokuapp.com/getjobs").then((r)=>{
 
   }).catch((e)=>{
     console.log(e)
