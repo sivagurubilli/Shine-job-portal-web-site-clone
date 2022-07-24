@@ -4,7 +4,7 @@
 ## Website cloned : shine.com
 
 ## To see our website 
-
+https://superb-sundae-fd47f9.netlify.app/
 
 ## How to clone and start
 1. clone from master branch
@@ -12,7 +12,7 @@
 3. npm install
 4. npm start
 
-## Contributors:
+## Contributors and their work: 
 ### Gurubilli Siva - login,signup pages and its authentication using backend, job search page
 ### Ravulapalli Sireesha - Job Details page,database using backend, application highlighter page and routes authentication
 ### Harapriya Sahu - Homepage, navigation bar, header and footers
