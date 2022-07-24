@@ -86,7 +86,7 @@ box-shadow: -8px 8px 16px #dedede, 8px -8px 16px #ffffff;
 .exp{
     width: auto;
     height: 20px;
-    /* border: 1px solid; */
+   
     padding: 2px;
     color:white;
     padding-left:5%;
@@ -95,7 +95,7 @@ box-shadow: -8px 8px 16px #dedede, 8px -8px 16px #ffffff;
 .salary{
     width: auto;
   height: 20px;
-  /* border: 1px solid; */
+  
   padding-left:5%;
   color:white;
   padding-top: 10px;
@@ -103,7 +103,7 @@ box-shadow: -8px 8px 16px #dedede, 8px -8px 16px #ffffff;
 .location{
     width: 400px;
     height: auto;
-    /* border: 1px solid; */
+    
     margin-left: 0.5%;
     color:white;
     padding-top: 10px;

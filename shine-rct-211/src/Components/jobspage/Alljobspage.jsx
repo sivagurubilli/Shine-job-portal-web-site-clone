@@ -21,7 +21,7 @@ const [limit, setLimit] = useState(10);
 
     const handlesearch =()=>{
           
-          axios.get("http://localhost:5000/getjobs").then((r)=>{
+          axios.get("https://shinebackend.herokuapp.com/getjobs").then((r)=>{
     
           setData(r.data)
           }).catch((e)=>{

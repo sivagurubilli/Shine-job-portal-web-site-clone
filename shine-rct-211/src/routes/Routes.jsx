@@ -10,11 +10,6 @@ import Home from "../Components/Homepage/Home"
 import {JobDetailsPage} from "../Pages/JobDetailsPage"
 import { ApplicationInsights } from "../Components/JobDetails/ApplicationInsights"; 
 import { PrivateRoute } from "../Components/JobDetails/PrivateRoute"
-
-
-
-
-import { ApplicationInsights } from "../Components/JobDetails/ApplicationInsights"; 
 import Alljobspage from "../Components/jobspage/Alljobspage";
 
 
@@ -28,6 +23,7 @@ const Routesall = () => {
 
                     </Route>
                     <Route path="/register" element={<Register />}></Route>
+                   <Route path = "/alljobs" element={<Alljobspage />}></Route>
 
                 <Route path="/jobDetails/:id" element={
                     <PrivateRoute>

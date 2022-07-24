@@ -7,7 +7,7 @@ import axios from "axios"
 export const register =(payload)=>(dispatch)=>{
     dispatch({type:types.REGISTER_REQUEST})
 
-    return axios.post("http://localhost:5000/reg",payload).then(r=>{
+    return axios.post("https://shinebackend.herokuapp.com/reg",payload).then(r=>{
      alert(r.data)
         dispatch({type:types.REGISTER_SUCCESS,payload:r.data})
         console.log(r)
@@ -26,10 +26,10 @@ return e
 export const login =(payload)=>(dispatch)=>{
    
     dispatch({type:types.LOGIN_REQUEST})
-    return axios.post("http://localhost:5000/log",payload).then(r=>{
+    return axios.post("https://shinebackend.herokuapp.com/log",payload).then(r=>{
         dispatch({type:types.LOGIN_SUCCESS,payload:r.data})
     
-        console.log(r.data.userdata)
+       // console.log(r.data.userdata)
          alert(r.data.message)
         return ("success")
         

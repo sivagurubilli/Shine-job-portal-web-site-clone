@@ -9,7 +9,10 @@
    
 }
 
-
+.imgshine{
+    width: 80px;
+    height:80px;
+}
 .emptydiv{
     height: 60px;
     background-color: grey;
